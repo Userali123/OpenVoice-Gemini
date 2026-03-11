@@ -50,8 +50,8 @@ Follow these instructions to get the project running on your local machine.
 ### Step 1: Clone the Repository
 Open your terminal or command prompt and run:
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone https://github.com/Userali123/OpenVoice-Gemini.git
+cd OpenVoice-Gemini
 ```
 Step 2: Install Dependencies
 It is highly recommended to use the provided requirements.txt file to install the exact versions needed:
@@ -100,4 +100,5 @@ Open a Pull Request
 Distributed under the MIT License. See ![License](https://github.com/Userali123/OpenVoice-Gemini/blob/main/LICENSE) for more information.
 
 Built with ❤️ and Python.
+
 
