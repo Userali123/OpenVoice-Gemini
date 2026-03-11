@@ -52,42 +52,42 @@ Open your terminal or command prompt and run:
 ```bash
 git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
 cd your-repo-name
+```
 Step 2: Install Dependencies
 It is highly recommended to use the provided requirements.txt file to install the exact versions needed:
-
-Bash
+```Bash
 pip install -r requirements.txt
+```
 (Note for Windows users: If you face errors installing PyAudio, run pip install pipwin followed by pipwin install pyaudio.)
 
 Step 3: Configure Your API Key
 Open the main Python script (e.g., main.py).
-
 Locate the API configuration line:
 
-Python
-client = genai.Client(api_key="YOUR_API_KEY") 
+```Python
+client = genai.Client(api_key="YOUR_API_KEY")
+```
 Replace "YOUR_API_KEY" with your actual API key from Google AI Studio. Do not share this key publicly!
 
 ▶️ Usage Guide
 To start chatting with your AI assistant, run the script from your terminal:
 
-Bash
+```Bash
 python main.py
+```
 Wait for the console to display "Listening...".
-
 Ask any question or give a command (e.g., "What is the speed of light?", "Tell me a joke").
-
 The AI will process your request, print the token usage, and speak the answer out loud.
-
 To exit the program, simply say: "Exit", "Stop", "Bye", or "Goodbye".
 
 📁 Project Structure
-Plaintext
+```
 📦 Your-Repo-Name
  ┣ 📜 main.py             # The core logic and main execution script
  ┣ 📜 requirements.txt    # List of Python dependencies
  ┣ 📜 .gitignore          # Tells Git which files to ignore (e.g., caches)
  ┗ 📜 README.md           # This documentation file
+```
 🤝 Contributing
 Contributions, issues, and feature requests are always welcome! Feel free to check the issues page.
 Fork the Project
@@ -97,6 +97,7 @@ Push to the Branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 
 📝 License
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See ![License](https://github.com/Userali123/OpenVoice-Gemini/blob/main/LICENSE) for more information.
 
 Built with ❤️ and Python.
+
