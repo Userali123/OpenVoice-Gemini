@@ -30,7 +30,6 @@ No paid APIs, no heavy system requirements—just pure open-source magic! ✨
 * **🔊 Natural Voice Output:** Uses `gTTS` for clear, native-sounding audio (includes Indian English accent support).
 * **⚡ Seamless Playback:** Direct memory audio playback using `pygame` (no `.mp3` file saving required).
 * **💸 100% Free:** Designed to run entirely on the generous free tier of Google AI Studio.
-* **📊 Token Tracking:** Live tracking of API tokens used per conversation.
 
 ---
 
@@ -100,5 +99,6 @@ Open a Pull Request
 Distributed under the MIT License. See ![License](https://github.com/Userali123/OpenVoice-Gemini/blob/main/LICENSE) for more information.
 
 Built with ❤️ and Python.
+
 
 
