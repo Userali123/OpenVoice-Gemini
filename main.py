@@ -5,7 +5,7 @@ import pygame
 import io
 
 # 1. Setup Gemini Client
-client = genai.Client(api_key="Your_API_KEY") # API key
+client = genai.Client(api_key="YOUR_API_KEY") # API key
 MODEL_ID = "models/gemini-flash-lite-latest" # working model ID
 
 # 2. Setup Audio Player (Pygame)
@@ -76,4 +76,5 @@ while True:
             speak(response.text)
         except Exception as e:
             print(f"Error: {e}")
+
             speak("I encountered an error.")
